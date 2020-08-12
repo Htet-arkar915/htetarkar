@@ -274,6 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-container{
     margin-left: 100px;
     margin-top:200px;
+    position: relative;
   }
 }
 
