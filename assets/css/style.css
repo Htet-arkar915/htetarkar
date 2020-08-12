@@ -271,6 +271,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+    #hero {
+    background-attachment: fixed;
+      height: 150vh;
+  }
   #hero .hero-container{
     margin-left: 100px;
     margin-top:200px;
