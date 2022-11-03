@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   width: 300px;
-  transition: all ease-in-out 0.5s;
+  /*transition: all ease-in-out 0.5s;*/
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
@@ -473,6 +473,22 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  text-justify: auto;
+}
+.resume .resume-item .certificate{
+  clear: both;
+}
+.resume .resume-item .certificate li{
+  list-style: none;
+  padding-bottom: 0px;
+  text-justify: auto;
+}
+.resume .resume-item .certificate li img{
+  width: 23%;
+  height: 160px;
+  margin: .5%;
+  float: left;
+  display: inline;
 }
 
 .resume .resume-item:last-child {
@@ -499,7 +515,6 @@ section {
 }
 
 .portfolio #portfolio-flters {
-  padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
@@ -812,6 +827,9 @@ section {
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
+}
+.contact .info iframe{
+  width: 100%;
 }
 
 .contact .php-email-form {
